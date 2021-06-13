@@ -21,13 +21,13 @@ pip install -r requirements.txt
 The first time
 
 ```
-conda env create -n dataviz_python -f ./binder/environment.yml
+conda env create -f ./binder/environment.yml
 ```
 
 To update the environment after changes were made to `./binder/environment.yml`
 
 ```
-conda env update -n dataviz_pythonv -f ./binder/environment.yml
+conda env update -f ./binder/environment.yml
 ```
 
 ## Download the required data
